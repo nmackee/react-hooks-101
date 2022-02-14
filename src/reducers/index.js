@@ -31,7 +31,7 @@
 //  }
 // ]
 
-export const events = (state = [], action) => {
+const events = (state = [], action) => {
   switch(action.type) {
     case 'CREATE_EVENT':
       const event = { title: action.title, body: action.body}
@@ -46,3 +46,5 @@ export const events = (state = [], action) => {
       return state
   }
 }
+
+export default events
