@@ -22,7 +22,7 @@ const EventForm = ({ state, dispatch}) => {
     setTitle('')
     setBody('')
   }
-  console.log({state})
+  // console.log({state})
 
   const deleteAllEvents = (e) => {
     e.preventDefault()
