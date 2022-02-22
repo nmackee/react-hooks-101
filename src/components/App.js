@@ -10,7 +10,10 @@ import reducer from '../reducers'
 // console.log({AppContext})
 
 const App = () =>  {
-  const [state, dispatch] = useReducer(reducer, [])
+  const initialState = {
+    events: []
+  }
+  const [state, dispatch] = useReducer(reducer, initialState)
   // console.log(state, ' in App.js')
   
   return (
