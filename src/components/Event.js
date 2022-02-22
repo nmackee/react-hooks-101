@@ -2,7 +2,6 @@ import React, { useContext } from "react";
 
 import {
   ADD_OPERATION_LOG, 
-  DELETE_ALL_OPERATION_LOGS, 
   DELETE_EVENT 
 } from '../actions'
 import AppContext from '../contexts/AppContext'
